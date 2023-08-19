@@ -949,6 +949,11 @@ body.lock {
 		display: none;
 	}
 }
+@media (max-width: 575px) {
+	.show-button--display {
+		display: inline-flex;
+	}
+}
 
 .header-title {
 	padding: 1.6rem 0;
